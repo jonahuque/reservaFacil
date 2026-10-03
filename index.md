@@ -6,7 +6,7 @@
 
 El objetivo del proyecto es ofrecer una solución **sencilla, rápida y accesible** tanto para los clientes como para el personal del establecimiento.
 
-![Restaurante](images/salaMesas.avif)
+![Restaurante](image/salaMesas.avif)
 
 > **Objetivo:** simplificar el proceso de reserva y ayudar al establecimiento a organizar mejor su actividad.
 
