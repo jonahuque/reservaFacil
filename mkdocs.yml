@@ -1,0 +1,50 @@
+
+site_name: ReservaFácil
+site_description: Plataforma de gestión de reservas para restaurantes
+site_author: Jonathan Huque
+
+
+
+
+theme:
+  name: material
+  language: es
+
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: teal
+      toggle:
+        icon: material/weather-night
+        name: Cambiar a modo oscuro
+
+    - scheme: slate
+      primary: indigo
+      accent: teal
+      toggle:
+        icon: material/weather-sunny
+        name: Cambiar a modo claro
+
+  font:
+    text: Roboto
+    code: Roboto Mono
+
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - content.code.copy
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.superfences
+  - pymdownx.inlinehilite
+
+nav:
+  - Inicio: index.md
+  - Proyecto: proyecto.md
+  - Funcionalidades: funcionalidades.md
+  - Tecnologías: tecnologia.md
